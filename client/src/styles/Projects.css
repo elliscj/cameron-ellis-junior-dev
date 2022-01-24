@@ -10,10 +10,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  /* background-color: #3baaff; */
+}
+
+.cards {
+  background-color: #3baaff;
+  /* text-align: center; */
 }
 
 h1 {
   text-align: center;
+  color: #3baaff;
 }
 
 /* Card.Title {

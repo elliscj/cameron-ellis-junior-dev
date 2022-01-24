@@ -2,6 +2,6 @@
   background-color: #444444;
 }
 
-.nav-link .active {
-  color: rgb(255, 38, 0);
+.active {
+  background-color: rgb(255, 38, 0);
 }

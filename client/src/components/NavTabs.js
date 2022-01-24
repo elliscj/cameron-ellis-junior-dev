@@ -5,23 +5,22 @@ import React from "react";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
+          
           // checking (if currentPage = home, make it an active nav-link, else normal nav-link)
 
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
           Home
         </a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
-          //  TODO: Add a comment explaining what this logic is doing
           // same thing, checking if the current link is equal to currentPage, and making it look 'active'
 
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
@@ -32,12 +31,12 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#blog"
-          onClick={() => handlePageChange("Blog")}
-          //  TODO: Add a comment explaining what this logic is doing
-
-          className={currentPage === "Blog" ? "nav-link active" : "nav-link"}
+          onClick={() => handlePageChange("Projects")}
+          className={
+            currentPage === "Projects" ? "nav-link active" : "nav-link"
+          }
         >
-          Blog
+          Projects
         </a>
       </li>
       <li className="nav-item">

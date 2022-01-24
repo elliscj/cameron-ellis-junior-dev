@@ -27,12 +27,10 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
       {/* // passing the state variable currentPage and the function
       handlePageChange to the navTabs function to be able to change state and
       call different functions based on button click // */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
       {/* // rendering the page that was just changed via the navTabs // */}
       {renderPage()}
     </div>

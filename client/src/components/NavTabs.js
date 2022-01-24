@@ -1,10 +1,10 @@
 import React from "react";
+import "../styles/NavTabs.css";
 
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
 // props is and object so we are descructuring it to take the key value pairs as variables
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" bg="dark" variant="dark">
       {/* <li className="nav-item">
         <a
           href="#home"
@@ -30,7 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
+          href="#projects"
           onClick={() => handlePageChange("Projects")}
           className={
             currentPage === "Projects" ? "nav-link active" : "nav-link"
@@ -42,8 +42,6 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#contact"
-          //  TODO: Add a comment explaining what this logic is doing
-
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
@@ -55,3 +53,23 @@ function NavTabs({ currentPage, handlePageChange }) {
 }
 
 export default NavTabs;
+
+// <Navbar bg="light" expand="lg">
+//   <Container>
+//     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+//     <Navbar.Toggle aria-controls="basic-navbar-nav" />
+//     <Navbar.Collapse id="basic-navbar-nav">
+//       <Nav className="me-auto">
+//         <Nav.Link href="#home">Home</Nav.Link>
+//         <Nav.Link href="#link">Link</Nav.Link>
+//         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+//           <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+//           <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+//           <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+//           <NavDropdown.Divider />
+//           <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+//         </NavDropdown>
+//       </Nav>
+//     </Navbar.Collapse>
+//   </Container>
+// </Navbar>;

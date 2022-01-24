@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+#projects {
+  background-color: #444444;
+}
+
+#proj-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Card.Title {
+  text-align: center;
+} */

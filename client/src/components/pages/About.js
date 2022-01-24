@@ -1,16 +1,24 @@
-import React from 'react';
+import React from "react";
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      <h1 className="m-3">About Me</h1>
+      <p className="m-3">
+        My name is Cameron Ellis, I am an aspiring Software Developer based out
+        of Denver CO. I have lived in the wonderful state of Colorado for my
+        whole life and do not currently have any plans to leave, but will for
+        the right oportunity. For the past 6 years I have worked as a Laser
+        Technician for a company that makes laser engraving and cutting machines
+        based out of Golden CO. This job was fun and rewarding for a time, but
+        was not the career path I had hoped for, which has led me to looking for
+        a new career in the field of Software Delvelopment. I am an extremely
+        hard worker with an acute attention to detail and believe that you get
+        out what you put in. My favorite hobbies are motorcycle travel and golf.
+        Traveling and being imersed in the elements with just you and your
+        machine is a very special feeling. My dream trip is to ride from Alaska
+        to Ushuaia on the southern tip of Argentina. And my dog Amos III, I love
+        my dog.
       </p>
     </div>
   );

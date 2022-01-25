@@ -1,3 +1,11 @@
+/* 
+#444444 dark grey
+#3BAAFF blue jean
+#E2D872 straw
+#FF3B6C radical
+#E2E2E2 platinum 
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -14,13 +22,18 @@
 }
 
 .cards {
-  background-color: #3baaff;
+  background-color: #3f3f3f;
+  color: #fa3c69;
   /* text-align: center; */
 }
 
 h1 {
   text-align: center;
   color: #3baaff;
+}
+
+.image {
+  filter: grayscale(90%);
 }
 
 /* Card.Title {

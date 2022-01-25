@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div>
-      <h1 className="m-3">About Me</h1>
+      <h1 className="m-3">&#60;About&#62; Me &#60;About&#62;</h1>
       <p className="m-3">
         My name is Cameron Ellis, I am an aspiring Software Developer based out
         of Denver CO. I have lived in the wonderful state of Colorado for my

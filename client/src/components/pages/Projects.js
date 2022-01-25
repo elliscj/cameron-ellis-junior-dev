@@ -23,7 +23,8 @@ export default function Projects() {
               trailers, and share movie reviews.
             </Card.Text>
             <Card.Text>
-              Key Technologies: &#91; Express.js, Node.js, SQL, Sequelize &#93;
+              Key Technologies: &#91; Express.js, Node.js, SQL, Sequelize,
+              Bootstrap &#93;
               {/* <ListGroupItem>Express.js, Node.js, SQL, Sequelize</ListGroupItem>
             <ListGroupItem>TMDB</ListGroupItem> */}
             </Card.Text>
@@ -50,23 +51,23 @@ export default function Projects() {
           <Card.Img
             className="image"
             variant="top"
-            src="./assets/brews-of-interest.png"
+            src="./assets/brew-of-interest.png"
           />
           <Card.Body className="cards">
-            <Card.Title>Watch-iT</Card.Title>
+            <Card.Title>Brews of Interest</Card.Title>
             <Card.Text>
-              An app that allows you to easily create a watchlist, watch
-              trailers, and share movie reviews.
+              This simple app allows you to find local breweries in your area,
+              and shows their location on a map.
             </Card.Text>
             <Card.Text>
-              Key Technologies: &#91; Express.js, Node.js, SQL, Sequelize &#93;
+              Key Technologies: &#91; Open Brewery Database, Javascript &#93;
               {/* <ListGroupItem>Express.js, Node.js, SQL, Sequelize</ListGroupItem>
             <ListGroupItem>TMDB</ListGroupItem> */}
             </Card.Text>
             <Button
               variant="dark"
               className="mx-2"
-              href="https://github.com/elliscj/watchIT"
+              href="https://github.com/elliscj/project-1"
               target="_blank"
             >
               Repo
@@ -74,7 +75,7 @@ export default function Projects() {
             <Button
               variant="dark"
               className="mx-2"
-              href="https://thawing-fjord-57482.herokuapp.com/"
+              href="https://elliscj.github.io/project-1/"
               target="_blank"
             >
               Live Site

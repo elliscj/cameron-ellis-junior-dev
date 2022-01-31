@@ -4,7 +4,8 @@ import { Form, FloatingLabel, Button } from "react-bootstrap";
 export default function Contact() {
   return (
     <>
-      <Form.Group className="contactMe">
+      <h1 className="m-3">Contact Me</h1>
+      <Form.Group className="contactMe container col-8">
         <FloatingLabel controlId="floatingInput" label="Name" className="m-3">
           <Form.Control type="Name" placeholder="Name" />
         </FloatingLabel>

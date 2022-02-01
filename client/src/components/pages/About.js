@@ -1,10 +1,11 @@
 import React from "react";
+import "../../styles/About.css";
 
 export default function About() {
   return (
     <div className="container">
       <h1 className="m-3">About Me</h1>
-      <img src="./assets/profile-pic.png"></img>
+      <img src="./assets/profile-pic.png" className="m-3"></img>
       <p className="m-3">
         My name is Cameron Ellis, I am an aspiring Software Developer based out
         of Denver CO. I have lived in the wonderful state of Colorado for my

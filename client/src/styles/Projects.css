@@ -6,13 +6,22 @@
 #E2E2E2 platinum 
 */
 
+body {
+  background-color: #444444;
+  background: url(../../public/assets/ronan-furuta-0xOG0Df1Re4-unsplash.jpg)
+    no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
 * {
   box-sizing: border-box;
 }
 
-#projects {
+/* #projects {
   background-color: #444444;
-}
+} */
 
 #proj-cards {
   display: flex;

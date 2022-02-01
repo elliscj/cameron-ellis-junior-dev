@@ -29,7 +29,7 @@ export default function Projects() {
             <ListGroupItem>TMDB</ListGroupItem> */}
             </Card.Text>
             <Button
-              variant="dark"
+              variant="outline-light"
               className="mx-2"
               href="https://github.com/elliscj/watchIT"
               target="_blank"
@@ -37,7 +37,7 @@ export default function Projects() {
               Repo
             </Button>
             <Button
-              variant="dark"
+              variant="outline-light"
               className="mx-2"
               href="https://thawing-fjord-57482.herokuapp.com/"
               target="_blank"
@@ -65,7 +65,7 @@ export default function Projects() {
             <ListGroupItem>TMDB</ListGroupItem> */}
             </Card.Text>
             <Button
-              variant="dark"
+              variant="outline-light"
               className="mx-2"
               href="https://github.com/elliscj/project-1"
               target="_blank"
@@ -73,7 +73,7 @@ export default function Projects() {
               Repo
             </Button>
             <Button
-              variant="dark"
+              variant="outline-light"
               className="mx-2"
               href="https://elliscj.github.io/project-1/"
               target="_blank"
@@ -104,7 +104,7 @@ export default function Projects() {
             <ListGroupItem>TMDB</ListGroupItem> */}
             </Card.Text>
             <Button
-              variant="dark"
+              variant="outline-light"
               className="mx-2"
               href="https://github.com/elliscj/hw6-weather-dashboard"
               target="_blank"
@@ -112,7 +112,7 @@ export default function Projects() {
               Repo
             </Button>
             <Button
-              variant="dark"
+              variant="outline-light"
               className="mx-2"
               href="https://elliscj.github.io/hw6-weather-dashboard/"
               target="_blank"
@@ -142,7 +142,7 @@ export default function Projects() {
             <ListGroupItem>TMDB</ListGroupItem> */}
             </Card.Text>
             <Button
-              variant="dark"
+              variant="outline-light"
               className="mx-2"
               href="https://github.com/elliscj/readme-generator"
               target="_blank"
@@ -179,7 +179,7 @@ export default function Projects() {
             <ListGroupItem>TMDB</ListGroupItem> */}
             </Card.Text>
             <Button
-              variant="dark"
+              variant="outline-light"
               className="mx-2"
               href="https://github.com/elliscj/social-media-api"
               target="_blank"
@@ -215,7 +215,7 @@ export default function Projects() {
             <ListGroupItem>TMDB</ListGroupItem> */}
             </Card.Text>
             <Button
-              variant="dark"
+              variant="outline-light"
               className="mx-2"
               href="https://github.com/elliscj/JATE"
               target="_blank"
@@ -223,7 +223,7 @@ export default function Projects() {
               Repo
             </Button>
             <Button
-              variant="dark"
+              variant="outline-light"
               className="mx-2"
               href="https://obscure-plains-41681.herokuapp.com/"
               target="_blank"

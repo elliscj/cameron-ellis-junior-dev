@@ -31,13 +31,27 @@ function NavTabs({ currentPage, handlePageChange }) {
               id="basic-nav-dropdown"
               menuVariant="dark"
             >
-              <NavDropdown.Item href="#action/3.1">GitHub</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">LinkedIn</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Resume</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item
+                href="https://github.com/elliscj"
+                target="_blank"
+              >
+                GitHub
               </NavDropdown.Item>
+              <NavDropdown.Item
+                href="https://www.linkedin.com/in/cameronje/"
+                target="_blank"
+              >
+                LinkedIn
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                href="./assets/dev-resume.pdf"
+                target="_blank"
+                download
+              >
+                Resume
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item>Stay In Touch!</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

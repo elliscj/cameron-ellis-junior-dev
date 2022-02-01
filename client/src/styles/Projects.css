@@ -6,6 +6,10 @@
 #E2E2E2 platinum 
 */
 
+h1 {
+  color: azure;
+}
+
 body {
   background-color: #444444;
   background: url(../../public/assets/ronan-furuta-0xOG0Df1Re4-unsplash.jpg)
@@ -31,18 +35,19 @@ body {
 }
 
 .cards {
-  background-color: #3f3f3f;
-  color: #fa3c69;
+  background-color: rgb(26, 26, 26);
+  color: azure;
   /* text-align: center; */
 }
 
 h1 {
   text-align: center;
-  color: #3baaff;
+  color: azure;
+  /* color: #3baaff; */
 }
 
 .image {
-  filter: grayscale(90%);
+  filter: grayscale(70%);
 }
 
 /* Card.Title {

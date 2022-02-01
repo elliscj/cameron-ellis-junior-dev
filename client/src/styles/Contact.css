@@ -1,0 +1,8 @@
+body {
+  background-color: #444444;
+  background: url(./assets/ronan-furuta-0xOG0Df1Re4-unsplash.jpg) no-repeat
+    center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}

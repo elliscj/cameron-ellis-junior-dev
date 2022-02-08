@@ -10,6 +10,7 @@ export default function About() {
           id="profile"
           src="./assets/profile-pic.png"
           className="m-3 col-6 col-xs-5 col-md-4"
+          alt="profile picture"
         ></img>
         <p className="m-3 col-8 col-xs-6 col-md-6">
           My name is Cameron Ellis, I am an aspiring Software Developer based

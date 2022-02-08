@@ -15,6 +15,7 @@ export default function Projects() {
             className="image"
             variant="top"
             src="./assets/watch-iT-screenshot.png"
+            alt="watch-it"
           />
           <Card.Body className="cards">
             <Card.Title>Watch-iT</Card.Title>
@@ -52,6 +53,7 @@ export default function Projects() {
             className="image"
             variant="top"
             src="./assets/brew-of-interest.png"
+            alt="brews"
           />
           <Card.Body className="cards">
             <Card.Title>Brews of Interest</Card.Title>
@@ -88,6 +90,7 @@ export default function Projects() {
             className="image"
             variant="top"
             src="./assets/weather-screenshot.png"
+            alt="weather"
           />
           <Card.Body className="cards">
             <Card.Title>Weather Dashboard</Card.Title>
@@ -127,6 +130,7 @@ export default function Projects() {
             className="image"
             variant="top"
             src="./assets/readme-generator.png"
+            alt="readme-generator"
           />
           <Card.Body className="cards">
             <Card.Title>Readme Generator</Card.Title>
@@ -165,6 +169,7 @@ export default function Projects() {
             className="image"
             variant="top"
             src="./assets/social-network-api-screenshot.png"
+            alt="social-media-back-end"
           />
           <Card.Body className="cards">
             <Card.Title>Social Media API</Card.Title>
@@ -202,6 +207,7 @@ export default function Projects() {
             className="image"
             variant="top"
             src="./assets/jate-screenshot.png"
+            alt="text editor"
           />
           <Card.Body className="cards">
             <Card.Title>J.A.T.E</Card.Title>

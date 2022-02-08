@@ -7,9 +7,9 @@ export default function Contact() {
     <>
       <div className="contactMe">
         <h1 className="m-3">Contact Me</h1>
-        <h5>Please get in touch thgough any of my professional links:</h5>
+        {/* <h5>Please get in touch thgough any of my professional links:</h5> */}
         <div className="contact-card">
-          <a href="https://www.linkedin.com/in/cameronje/" target="_blank">
+          {/* <a href="https://www.linkedin.com/in/cameronje/" target="_blank">
             <img
               src="./assets/linkedin.png"
               className="col-1 contact-img"
@@ -40,12 +40,10 @@ export default function Contact() {
               alt="resume"
             />
             Resume
-          </a>
-        </div>
-
-        {/* <Card className="col-md-5 col-sm-7 col-8 my-4">
+          </a> */}
+          <Card className="col-md-5 col-sm-7 col-8 my-4">
             <Card.Body className="cards">
-              <Card.Title>
+              <Card.Title className="title">
                 Please get in touch through any of my professional links:
               </Card.Title>
               <Card.Text>
@@ -63,25 +61,21 @@ export default function Contact() {
               <Card.Text>
                 <img src="./assets/email.png" className="col-1" />
                 Email
-                <ListGroupItem>Express.js, Node.js, SQL, Sequelize</ListGroupItem>
-            <ListGroupItem>TMDB</ListGroupItem>
               </Card.Text>
               <Card.Text>
                 <img src="./assets/resume-icon.png" className="col-1" />
                 Resume
-                <ListGroupItem>Express.js, Node.js, SQL, Sequelize</ListGroupItem>
-            <ListGroupItem>TMDB</ListGroupItem>
-              </Card.Text>
-              <Card.Text>
-                <img src="./assets/resume-icon.png" className="col-1" />
-                phone
-                <ListGroupItem>Express.js, Node.js, SQL, Sequelize</ListGroupItem>
-            <ListGroupItem>TMDB</ListGroupItem>
               </Card.Text>
             </Card.Body>
-          </Card> */}
+          </Card>
+        </div>
+      </div>
+    </>
+  );
+}
 
-        {/* <Form.Group className="container containerC col-8">
+{
+  /* <Form.Group className="container containerC col-8">
           <FloatingLabel
             controlId="floatingInput"
             label="Name"
@@ -111,8 +105,5 @@ export default function Contact() {
           >
             Submit
           </Button>
-        </Form.Group> */}
-      </div>
-    </>
-  );
+        </Form.Group> */
 }

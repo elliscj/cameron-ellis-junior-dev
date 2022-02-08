@@ -7,12 +7,23 @@ body {
   background-size: cover;
 }
 
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.title {
+  text-align: center;
+}
+
 .contact-card {
   display: block;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  text-decoration: none;
+  color: inherit;
   /* background-color: #3baaff; */
 }
 
@@ -27,8 +38,4 @@ h1 {
 
 h5 {
   text-align: center;
-}
-
-a {
-  text-decoration: none;
 }

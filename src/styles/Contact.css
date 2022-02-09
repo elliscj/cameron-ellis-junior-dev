@@ -7,6 +7,10 @@ body {
   background-size: cover;
 }
 
+.con-img {
+  max-width: 70px;
+}
+
 a {
   text-decoration: inherit;
   color: inherit;
@@ -16,20 +20,21 @@ a {
   text-align: center;
 }
 
-.contact-card {
-  display: block;
+ul {
+  list-style: none;
+  text-align: center;
+}
 
+/* .contact-card {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-decoration: none;
   color: inherit;
   /* background-color: #3baaff; */
-}
 
-.containerC {
-  color: rgb(0, 0, 0);
-  justify-content: center;
+.links {
+  text-align: center;
 }
 
 h1 {

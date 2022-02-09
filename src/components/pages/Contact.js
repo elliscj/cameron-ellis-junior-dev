@@ -4,12 +4,57 @@ import "../../styles/Contact.css";
 
 export default function Contact() {
   return (
-    <>
-      <div className="contactMe">
-        <h1 className="m-3">Contact Me</h1>
-        {/* <h5>Please get in touch thgough any of my professional links:</h5> */}
-        <div className="contact-card">
-          {/* <a href="https://www.linkedin.com/in/cameronje/" target="_blank">
+    <div className="contactMe">
+      <h1 className="m-3">Contact Me</h1>
+      <div className="contact-card">
+        <ul className="my-5">
+          <li className="links my-3">
+            <a href="https://www.linkedin.com/in/cameronje/" target="_blank">
+              <img
+                src="./assets/linkedin.png"
+                className="col-1 con-img"
+                alt="linkedin"
+              />
+            </a>{" "}
+            Linkedin
+          </li>
+          <li className="links my-3">
+            <a href="https://github.com/elliscj" target="_blank">
+              <img
+                src="./assets/github-logo.png"
+                className="col-1 con-img"
+                alt="github"
+              />
+            </a>{" "}
+            GitHub
+          </li>
+          <li className="links my-3">
+            <a href="./assets/dev-resume.pdf" target="_blank" download>
+              <img
+                src="./assets/resume-pencil.png"
+                className="col-1 con-img"
+                alt="resume"
+              />
+            </a>{" "}
+            Resume
+          </li>
+          <li className="links my-3">
+            <a href="mailto: elliscj@colorado.edu" target="_blank">
+              <img
+                src="./assets/email.png"
+                className="col-1 con-img"
+                alt="email"
+              />
+            </a>{" "}
+            Email
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+/* <a href="https://www.linkedin.com/in/cameronje/" target="_blank">
             <img
               src="./assets/linkedin.png"
               className="col-1 contact-img"
@@ -40,25 +85,27 @@ export default function Contact() {
               alt="resume"
             />
             Resume
-          </a> */}
-          <Card className="col-md-5 col-sm-7 col-8 my-4">
+          </a> */
+
+/* <Card className="conCard col-md-5 col-sm-7 col-8 my-4">
             <Card.Body className="cards">
               <Card.Title className="title">
                 Please get in touch through any of my professional links:
               </Card.Title>
-              <Card.Text>
-                <img
-                  href="https://www.linkedin.com/in/cameronje/"
-                  src="./assets/linkedin.png"
-                  className="col-1"
-                />
-                Linkedin
+              <Card.Text
+                className="links"
+                href="https://www.linkedin.com/in/cameronje/"
+              >
+                <a>
+                  <img src="./assets/linkedin.png" className="col-1" />
+                  Linkedin
+                </a>
               </Card.Text>
-              <Card.Text>
+              <Card.Text href="https://github.com/elliscj">
                 <img src="./assets/github-logo.png" className="col-1" />
                 GitHub
               </Card.Text>
-              <Card.Text>
+              <Card.Text href="mailto: elliscj@colorado.edu">
                 <img src="./assets/email.png" className="col-1" />
                 Email
               </Card.Text>
@@ -67,15 +114,9 @@ export default function Contact() {
                 Resume
               </Card.Text>
             </Card.Body>
-          </Card>
-        </div>
-      </div>
-    </>
-  );
-}
+          </Card> */
 
-{
-  /* <Form.Group className="container containerC col-8">
+/* <Form.Group className="container containerC col-8">
           <FloatingLabel
             controlId="floatingInput"
             label="Name"
@@ -106,4 +147,3 @@ export default function Contact() {
             Submit
           </Button>
         </Form.Group> */
-}

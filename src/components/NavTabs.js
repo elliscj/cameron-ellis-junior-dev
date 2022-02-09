@@ -26,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             >
               Contact Me
             </Nav.Link>
-            <NavDropdown
+            {/* <NavDropdown
               title="More"
               id="basic-nav-dropdown"
               menuVariant="dark"
@@ -52,7 +52,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>Stay In Touch!</NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

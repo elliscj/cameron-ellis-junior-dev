@@ -29,7 +29,7 @@ export default function Contact() {
             GitHub
           </li>
           <li className="links my-3">
-            <a href="./assets/ellsicjDevResume.pdf" target="_blank" download>
+            <a href="./assets/elliscjDevResume.pdf" target="_blank" download>
               <img
                 src="./assets/resume-pencil.png"
                 className="col-1 con-img"
